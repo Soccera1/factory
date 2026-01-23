@@ -1,0 +1,5 @@
+name="gnu-hello"
+version="2.12"
+url="http://ftp.gnu.org/gnu/hello/hello-2.12.tar.gz"
+sha256="cf04af86dc085268c5f4480f74cc0cb66316aa0fd94feb6ed645d826e7a5d13b"
+build_script="./configure --prefix=$PREFIX && make && make install"

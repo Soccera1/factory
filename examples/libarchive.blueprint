@@ -1,0 +1,6 @@
+name="libarchive"
+version="3.7.2"
+url="https://github.com/libarchive/libarchive/releases/download/v3.7.2/libarchive-3.7.2.tar.gz"
+sha256="04357661e4ad8f938994541716307730e20087754b2354c498308871638290fa"
+dependencies="zlib"
+build_script="./configure --prefix=$PREFIX --with-zlib && make && make install"
